@@ -96,7 +96,7 @@ const Layout: React.FunctionComponent<Props> = ({children}) => {
           <Link href="/">CryptoMaker App</Link>
         </div>
         <div className="flex justify-start sm:justify-center mb-2">
-          Developer:{" "}
+          Developer BACD :{" "}
           <a
             href="https://www.defimint.app"
             className="text-yellow-500 ml-4"
@@ -109,6 +109,7 @@ const Layout: React.FunctionComponent<Props> = ({children}) => {
           <Link href="/create">Create Token!</Link>
         </div>
         <div className="flex justify-start sm:justify-center mb-2">
+<<<<<<< HEAD
           <a href="www.defimint.app" target="_blank">
             <Telegram />
           </a>
@@ -117,6 +118,16 @@ const Layout: React.FunctionComponent<Props> = ({children}) => {
           </a>
           <a
             href="www.defimint.app"
+=======
+          <a href="https://www.defimint.app" target="_blank">
+            <Telegram />
+          </a>
+          <a href="https://www.defimint.app" target="_blank">
+            <GitHub className="mx-12" />
+          </a>
+          <a
+            href="https://www.defimint.app"
+>>>>>>> a14462193298936b6db8071818cef4d4abd566cf
             target="_blank"
           >
             <LinkedIn />
